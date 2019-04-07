@@ -1,0 +1,12 @@
+<app-topbar (openTab)="openTab($event)"></app-topbar>
+<div class="main">
+    <div class="main_container">
+        <div class="lSideContainer">
+            <app-search-text [childList]="options" (searchEvent)="newText($event)">
+            </app-search-text>
+        </div>
+        <button (click)="Switch()">Switch side!</button>
+    </div>
+</div>
+
+

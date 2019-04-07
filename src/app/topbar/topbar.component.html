@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="leftSideBar">
+        <i class="material-icons">
+            menu
+        </i>
+        <button class="button">logout</button>
+    </div>
+    <div class="centerSideBar">
+        <my-tabs class="tabs" (openTab)="clickEvent($event)">
+            <my-tab [tabTitle]="'linkToPoly'">
+            </my-tab>
+            <my-tab tabTitle="linkToDumy"></my-tab>
+        </my-tabs>
+    </div>
+    <div class="rightSideBar">
+        <p class=angularIcon></p>
+    </div>
+</div>

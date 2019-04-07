@@ -1,0 +1,35 @@
+@import "../styles.scss";
+
+// main
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: 100%;
+    background:$lightgray;
+}
+
+
+
+.main_container{
+    height: 90%;
+    width: 90%;
+    background:$azure;
+    
+}
+
+.lSideContainer{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    background: white;
+    justify-content: center;
+
+}
+
+.rSideContainer{
+    height: 100%;
+    width: 70%;
+}

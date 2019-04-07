@@ -1,0 +1,44 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/* You can add global styles to this file, and also import other style files */
+
+// sizes
+$bodyHeight:95vh;
+$bodyWidth:208vh;
+
+//colors
+$azure:rgb(153, 213, 231);
+$lightgray:  rgb(238, 238, 238);
+
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%; // settin up the font to 10px cuz the default is 16
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: $bodyHeight;
+    width: $bodyWidth;
+}
+
+
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: none;
+    border-bottom: 2px solid blue;
+    color: black;
+
+}
+
+
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background-color: blue;
+}
+a{
+    color: black;
+    font-weight: 600;
+}
+
+
+
